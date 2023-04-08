@@ -7,7 +7,7 @@ var promise = new Promise((resolve, reject) => {
     var age = ageElement.value;
     var name = nameElement.value;
 	  if(!(age && name)){
-		  aler("Please enter valid details")
+		  alert("Please enter valid details")
 	  }
     if (age < 18) {
       reject(`Oh sorry ${name}. You aren't old enough`);
